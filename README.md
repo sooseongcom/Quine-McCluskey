@@ -1,5 +1,3 @@
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
-
 If you need Korean(한국어) explanation, go to <https://sooseongcom.com/post/qm-algorithm>.
 
 # Quine-McCluskey Algorithm Automation
@@ -66,7 +64,7 @@ Cost (# of transistors): 28
 
 [Line 1~3]\
 These terms are essential Prime Implicants. These are\
-\\(f(A, B, C, D)=\bar{B}\bar{D}+AB\bar{C}+\bar{A}D\\)\
+$f(A, B, C, D)=\bar{B}\bar{D}+AB\bar{C}+\bar{A}D$\
 in boolean equation.
 
 [Line 5]\
@@ -166,8 +164,8 @@ If there is columns which has 1, return is more than 0 and go to Step 7.
 PI table for Petrick's Method is handled by **PetrickTable** class.
 
 ![Step 7 Programming](https://sooseongcom.com/assets/images/20251118/p7.png)\
-\\(P=(P_2+P_3)(P_3+P_4)(P_0+P_1)(P_1+P_4)\\)\
-\\(P_0\\) ~ \\(P_4\\) → int p[0] ~ p[4] dynamic allocation.
+$P=(P_2+P_3)(P_3+P_4)(P_0+P_1)(P_1+P_4)$\
+$P_0$ ~ $P_4$ → int p[0] ~ p[4] dynamic allocation.
 
 * P function: ```vector<set<int*>>```
 * Each factor: ```set<int*>```
@@ -184,7 +182,7 @@ If there are several terms with the least number of PI (PetrickTable.cpp Line 17
 110-
 0--1
 ```
-This is "\\(f(A, B, C, D)=\bar{B}\bar{D}+AB\bar{C}+\bar{A}D\\) in boolean equation.\
+This is "$f(A, B, C, D)=\bar{B}\bar{D}+AB\bar{C}+\bar{A}D$ in boolean equation.\
 For use NAND Gate rather than AND or OR, do bubble pushing.
 
 ![Bubble Pushing](https://sooseongcom.com/assets/images/20251118/p8.png)\

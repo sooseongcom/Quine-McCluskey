@@ -6,7 +6,7 @@
 #include <map>
 #include "Minterm.h"
 
-#define DEBUG
+//#define DEBUG
 
 class ImpTable {
 private:

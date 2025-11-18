@@ -4,7 +4,7 @@
 #include <set>
 #include "Minterm.h"
 
-#define DEBUG
+//#define DEBUG
 #ifdef DEBUG
 #include <iostream>
 #endif

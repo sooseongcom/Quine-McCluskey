@@ -5,7 +5,7 @@
 #include "Minterm.h"
 #include "PITable.h"
 
-#define DEBUG
+//#define DEBUG
 #ifdef DEBUG
 #include <iostream>
 #endif

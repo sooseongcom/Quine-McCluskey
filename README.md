@@ -1,4 +1,4 @@
-\<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
 
 If you need Korean(한국어) explanation, go to <https://sooseongcom.com/post/qm-algorithm>.
 
@@ -13,7 +13,7 @@ This is Quine-McCluskey Algorithm automation program.
 ### 1.2. Download
 1.2.1. 아래의 설치파일 중 원하는 것을 내려받아 설치합니다.(Click the link which you want.)
 
-* 1.0.0 installer for Windows x64
+* [1.0.0 installer for Windows x64](https://github.com/sooseongcom/Quine-McCluskey/releases/download/v1.0.0/Quine-McCluskey-x64-1.0.0.exe)
 
 ![차단 경고](https://sooseongcom.com/assets/images/20240928/1.png)\
 1.2.2. If download is blocked, click **···** and click **Keep**.
@@ -194,13 +194,13 @@ AND and OR are all replaced into NAND.\
 * the number of transistor of NOT Gate: 2
 
 ## 3\. References
-1\) novs. 2022. "[C++] STL map vs multimap (feat. multimap equal_range)", nov.Zip. (2025. 11. 28. 방문). <https://novlog.tistory.com/entry/C-STL-map-vs-multimap-feat-multimap-equalrange>{: target="_blank" rel="noopener"}\
-2\) Jihan. 2023. "C++로 Quine-McCluskey 구현하기", bbbjihan.log. (2025. 11. 28. 방문). <https://velog.io/@bbbjihan/C로-Quine-McCluskey-구현하기>{: target="_blank" rel="noopener"}\
-3\) SCRIPTS BY. 2023. "vector VS list 뭘 써야 하지?", SCRIPTS BY. (2025. 11. 28. 방문). <https://nx006.tistory.com/20>{: target="_blank" rel="noopener"}\
-4\) BlockDMask. 2017. "[C++] multimap container 정리 및 사용법", 가면 뒤의 기록. (2025. 11. 28. 방문). <https://blockdmask.tistory.com/88>{: target="_blank" rel="noopener"}\
-5\) horang. n. d. "C++ std::string::erase 정리", Code by horang. (2025. 11. 18. 방문). <https://hoho325.tistory.com/317>{: target="_blank" rel="noopener"}\
-6\) BLASTIC. 2012. "[Quine-McCluskey Method] Petrick's Method", BLASTIC. (2025. 11. 18. 방문). <https://blastic.tistory.com/204>{: target="_blank" rel="noopener"}\
-7\) 젠니. 2023. "[논리회로설계] Petrick's Method", Jenvelop log. (2025. 11. 18. 방문). <https://velog.io/@tmdtmdqorekf/논리회로설계-Patricks-Method>{: target="_blank" rel="noopener"}\
-8\) 공부하는 식빵맘. 2020. "(C++) 중복 순열(Repeated Permutation) 구현하기", 평생 공부 블로그 : Today I Learned. (2025. 11. 18. 방문). <https://ansohxxn.github.io/algorithm/repeated-permutation/#google_vignette>{: target="_blank" rel="noopener"}\
-9\) Song 전자공학. 2025. "CMOS Logic Gates: CMOS 논리 게이트", Song 전자공학. (2025. 11. 18. 방문). <https://blog.naver.com/songsite123/223712874895>{: target="_blank" rel="noopener"}\
-10\) spring. 2020. "[c++] std::vector", springkim.log. (2025. 11. 18. 방문). <https://velog.io/@springkim/c-stdvector>{: target="_blank" rel="noopener"}
+1\) novs. 2022. "[C++] STL map vs multimap (feat. multimap equal_range)", nov.Zip. (2025. 11. 28. 방문). <https://novlog.tistory.com/entry/C-STL-map-vs-multimap-feat-multimap-equalrange>\
+2\) Jihan. 2023. "C++로 Quine-McCluskey 구현하기", bbbjihan.log. (2025. 11. 28. 방문). <https://velog.io/@bbbjihan/C로-Quine-McCluskey-구현하기>\
+3\) SCRIPTS BY. 2023. "vector VS list 뭘 써야 하지?", SCRIPTS BY. (2025. 11. 28. 방문). <https://nx006.tistory.com/20>\
+4\) BlockDMask. 2017. "[C++] multimap container 정리 및 사용법", 가면 뒤의 기록. (2025. 11. 28. 방문). <https://blockdmask.tistory.com/88>\
+5\) horang. n. d. "C++ std::string::erase 정리", Code by horang. (2025. 11. 18. 방문). <https://hoho325.tistory.com/317>\
+6\) BLASTIC. 2012. "[Quine-McCluskey Method] Petrick's Method", BLASTIC. (2025. 11. 18. 방문). <https://blastic.tistory.com/204>\
+7\) 젠니. 2023. "[논리회로설계] Petrick's Method", Jenvelop log. (2025. 11. 18. 방문). <https://velog.io/@tmdtmdqorekf/논리회로설계-Patricks-Method>\
+8\) 공부하는 식빵맘. 2020. "(C++) 중복 순열(Repeated Permutation) 구현하기", 평생 공부 블로그 : Today I Learned. (2025. 11. 18. 방문). <https://ansohxxn.github.io/algorithm/repeated-permutation/>\
+9\) Song 전자공학. 2025. "CMOS Logic Gates: CMOS 논리 게이트", Song 전자공학. (2025. 11. 18. 방문). <https://blog.naver.com/songsite123/223712874895>\
+10\) spring. 2020. "[c++] std::vector", springkim.log. (2025. 11. 18. 방문). <https://velog.io/@springkim/c-stdvector>
